@@ -17,6 +17,8 @@ int main()
     printf("Enter 0 for snake , 1 for Water , 2 for Gun\n");
     scanf("%d", &player);
 
+    printf("Computer chose %d \n", computer);
+
     if (player == 0 && computer == 0)
     {
         printf("It is draw\n");
@@ -53,6 +55,10 @@ int main()
     else if (player == 2 && computer == 2)
     {
         printf("It is draw\n");
+    }
+
+    else{
+        printf("Something went wrong\n");
     }
 
     return 0;
