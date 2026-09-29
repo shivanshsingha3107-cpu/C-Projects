@@ -60,7 +60,8 @@ int main(){
             printf("Not Defined\n");
         }
 
-        
+        printf("Thanks For using this Calculator\n");
+        printf("Made By Shivansh Singh\n");
 
 
 
